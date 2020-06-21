@@ -1,0 +1,2 @@
+export const CHANGE_TO_NEXTTAB = 'CHANGE_TO_NEXTTAB';
+export const SUBMIT_TAB_DATA = 'SUBMIT_TAB_DATA';
