@@ -98,6 +98,18 @@ footer {
     cursor: pointer;
 }
 
+.coming-soon {
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: 20px;
+    vertical-align: top;
+    transform: rotateX(45deg) rotateY(45deg);
+    position: absolute;
+    background-color: green;
+    padding: 2px 10px 2px 10px;
+    font-size: smaller;
+}
+
 .next-button-disabled {
     pointer-events: none;
     background-color: #a9a9a9;

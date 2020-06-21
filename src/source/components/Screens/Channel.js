@@ -125,6 +125,7 @@ class Channel extends PureComponent {
                                 disabled={item.comingSoon}
                                 onClick={() => this.onSelectCampaignType(item)}
                             >
+                                {item.comingSoon && <span className='coming-soon'>Coming Soon</span>}
                                 <p><img src={item.logo} alt={item.name} height={60} width={60} /></p>
                                 <p>{item.name}</p>
                             </div>
